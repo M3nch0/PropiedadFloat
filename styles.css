@@ -1,0 +1,57 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+/* Estilos para las columnas flotantes */
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Clearfix para evitar que el pie de página flote a un lado de las columnas */
+.clear {
+    clear: both;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
